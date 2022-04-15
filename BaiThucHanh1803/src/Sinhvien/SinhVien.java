@@ -6,7 +6,7 @@ public class SinhVien {
     Scanner scanner = new Scanner(System.in);
     String MSV;
     String HoTen;
-    Boolean GioiTinh;
+    String GioiTinh;
     String NgaySinh;
     
     public void Nhapsinhvien(){
@@ -17,7 +17,7 @@ public class SinhVien {
         System.out.println("Nhap ho ten sinh vien:");
         HoTen = scanner.nextLine();
         System.out.println("Gioi tinh:");
-        GioiTinh = scanner.hasNext();
+        GioiTinh = scanner.nextLine();
         System.out.println("Nhap ngay sinh:");
         NgaySinh = scanner.nextLine();
         
