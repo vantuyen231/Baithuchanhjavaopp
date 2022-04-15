@@ -6,7 +6,7 @@ import shapes.HinhTru;
 import shapes.HinhVuong;
 
 public class App54 {
-    public static void main(String[] agr ){
+    public static void main(String[] args ){
         //Thu nghiem voi lớp Hình tròn
         HinhTron hinhTron = new HinhTron();
         hinhTron.xuatTen();
