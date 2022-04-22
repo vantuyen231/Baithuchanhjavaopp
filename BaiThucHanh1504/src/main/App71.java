@@ -1,7 +1,7 @@
 package main;
 
 import App71.ToaDo;
-//import App71.HinhTron;
+import App71.HinhTron;
 
 public class App71 {
     

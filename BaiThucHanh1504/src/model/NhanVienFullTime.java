@@ -21,7 +21,11 @@ public class NhanVienFullTime extends NhanVien {
         
     @Override
     public String loaiNhanVien(){
-        return "Nhan vien toan thoi gian";
+        if(loaiChucVu == Configs.NHAN_VIEN_SEP){
+            return "Nhan vien sep";
+        }else{
+            return "Nhan vien linh";
+        }
     }
     
     public void tinhLuong(){
