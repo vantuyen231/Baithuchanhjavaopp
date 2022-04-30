@@ -45,5 +45,6 @@ public class main1 {
         VIPCustomer vct = new VIPCustomer();
         vct.nhapttVipCustomer();
         vct.inttVipCustomer();
+
     }
 }
