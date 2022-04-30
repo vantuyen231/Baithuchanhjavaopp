@@ -5,17 +5,7 @@ public class Triangle extends Point {
     private double EdgeB;
     private double EdgeC;
 
-/*    public Triangle(){
-        
-    }
 
-    public Triangle( float EdgeA, float EdgeB, float EdgeC)
-    {
-        this.EdgeA = EdgeA;
-        this.EdgeB = EdgeB;
-        this.EdgeC = EdgeC;
-    }
-*/
     public void nhapTriangle()
     {
         Point d1 = new Point();
@@ -27,11 +17,7 @@ public class Triangle extends Point {
         Point d3 = new Point();
         System.out.println("Nhap diem thu 3:");
         d3.nhapPoint();
-/*    }
 
-    public double tinhEdge(Point d1, Point d2, Point d3)
-    {
-*/
         EdgeA = Math.sqrt(Math.pow((d1.getHoanhDo()-d2.getHoanhDo()),2)+Math.pow((d1.getTungDo()-d2.getTungDo()),2));
         System.out.println("canh "+d1.getTenDiem()+d2.getTenDiem()+" = " + EdgeA);
         EdgeB = Math.sqrt(Math.pow((d2.getHoanhDo()-d3.getHoanhDo()),2)+Math.pow((d2.getTungDo()-d3.getTungDo()),2));

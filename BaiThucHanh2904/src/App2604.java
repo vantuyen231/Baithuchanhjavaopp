@@ -6,7 +6,7 @@ import Shape.Quadrliateral;
 public class App2604 {
     public static void main(String[] args) throws Exception {
        
-/*        System.out.println("Nhap 1 diem");
+        System.out.println("Nhap 1 diem");
         Point TenDiem = new Point();
         TenDiem.nhapPoint(); 
         TenDiem.inPoint(); 
@@ -15,7 +15,7 @@ public class App2604 {
         Triangle TamGiac = new Triangle();
         TamGiac.nhapTriangle();
         TamGiac.ktraTriangle();
-*/
+
         System.out.println("Nhap diem cua tu giac");
         Quadrliateral TuGiac = new Quadrliateral();
         TuGiac.nhapQuadrliateral();
