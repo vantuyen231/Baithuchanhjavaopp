@@ -43,6 +43,5 @@ public class App110 {
         //Sắp xếp dãy số và in dãy số ra màn hình  
         Collections.sort(songuyenList);
         System.out.println("Sau khi sap xep:" +songuyenList);
-        
     }
 }
